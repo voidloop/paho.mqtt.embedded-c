@@ -1,0 +1,7 @@
+menu "Paho MQTT"
+
+config MQTTCLIENT_PLATFORM_HEADER
+    string "MQTT client platform header"
+    default "MQTTESP32.h"
+
+endmenu
